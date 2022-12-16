@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ttttttt"
+    tools:context=".PlayActivity"
+    tools:ignore="MissingDefaultResource">
+
+    <com.baskets.winl.GameView
+        android:id="@+id/game"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        tools:context=".PlayActivity"
+        android:background="@drawable/ttttttt" />
+
+    <FrameLayout
+        android:id="@+id/pause"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:background="@drawable/ttttttt"
+            android:gravity="center"
+            android:textColor="#E64A19"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            android:text="Tap to start"/>
+
+    </FrameLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/image" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="210dp"
+        android:layout_margin="30dp"
+        android:background="@drawable/rectangle4"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginStart="30sp"
+            android:layout_marginTop="30sp"
+            android:layout_marginEnd="30sp"
+            android:layout_marginBottom="30sp"
+            android:scaleType="centerInside"
+            android:src="@drawable/lg" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="110dp"
+            android:layout_margin="30dp"
+            android:background="@drawable/rectangle3"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/pol"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_margin="30dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackgroundBorderless"
+                android:scaleType="centerInside"
+                android:src="@drawable/pl" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_margin="30dp"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/btnStart"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:background="@drawable/rectanglej5"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackgroundBorderless"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="12dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/y" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btnClose"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackgroundBorderless"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/rectangle452"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="12dp"
+                 android:scaleType="centerInside"
+                    android:src="@drawable/n" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

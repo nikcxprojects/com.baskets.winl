@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "989673012218",
+    "project_id": "combasketswinl",
+    "storage_bucket": "combasketswinl.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989673012218:android:38ebf15936a17412084243",
+        "android_client_info": {
+          "package_name": "com.baskets.winl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "989673012218-0eleg0g5o0aah40rq8nbfdna6bvni2dc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDl7c20XJ5CeVs8kUUP7VOCtyk74lyXEtY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "989673012218-0eleg0g5o0aah40rq8nbfdna6bvni2dc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
